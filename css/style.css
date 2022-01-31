@@ -1902,8 +1902,7 @@ h6 {
 
 .generic-blockquote {
   padding: 0px 50px 0px 30px;
-  background: #fff;
-  border-left: 2px solid #f8b600; }
+  border-left: 3px solid #aeae6e; }
 
 @media (max-width: 991px) {
   .progress-table-wrap {
