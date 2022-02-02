@@ -496,7 +496,8 @@ pre {
   margin-left: auto; }
 
 .card-container{
-  padding: 5px;
+  padding-top: 30px;
+  padding-bottom: 5px;
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -3812,9 +3813,13 @@ input[type="button"].btn-block {
   /* background-color: #fff; */
   /* background-clip: border-box; */
   border: 1px solid rgba(250, 235, 215, 0.849);
- background-color: #F5F3E4; 
+ background-color: #ded1c5; 
  /* antiquewhite  */
-  border-radius: 5px; }
+
+ /* #d8c6b5 */
+  border-radius: 5px; 
+
+}
   .card > hr {
     margin-right: 0;
     margin-left: 0; }
@@ -3829,9 +3834,12 @@ input[type="button"].btn-block {
   -webkit-box-flex: 1;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
-  padding: 1.75rem; }
+  padding: 1.75rem;
+  border-radius: 10px;
+ }
 
 .card-title {
+  padding-top: 15px;
   margin-bottom: 0.25rem; 
   font-family: "Lora"; 
   color: black;
@@ -4190,15 +4198,18 @@ input[type="button"].btn-block {
   font-family: "Inter";
 }
 
+.sub-section {
+  padding-top: 50px;
+}
 
 
 .subtitle {
   font-family: "Lora"; 
-  font-weight: 600; 
+  font-weight: 700; 
   padding-top: 30px;
   padding-bottom: 10px;
   margin-bottom: 30px;
-  font-size: 20px !important;
+  font-size: 24px !important;
 }
 
 .text {
@@ -4218,6 +4229,10 @@ font-weight: 700;
 
 .light-text {
   color: #FFFEF2 !important; 
+}
+
+.dark-text {
+  color: #333333 !important; 
 }
 
 .brown-text {
@@ -4303,6 +4318,12 @@ ol li::before {
 
 .intro-section {
   padding-top: 20px;
+  padding-bottom: 90px;
+}
+
+.nocolour-section {
+  background-color: #FFFEF2;
+  padding-top: 90px;
   padding-bottom: 90px;
 }
 
