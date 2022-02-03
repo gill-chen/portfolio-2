@@ -3849,7 +3849,7 @@ input[type="button"].btn-block {
 
 .card-subtitle {
   font-family: "Lora"; 
-  font-size: 14px; 
+  font-size: 16px; 
   color: black;
   line-height: 1.5; 
   margin-bottom: 0.75rem;
@@ -3861,7 +3861,7 @@ input[type="button"].btn-block {
   margin-top: 0.175rem;
   margin-bottom: 0;
   font-family: "Lora";
-  font-size: 14px !important; 
+  font-size: 16px !important; 
   color: black;
   line-height: 1.5; 
  }
@@ -4138,6 +4138,29 @@ input[type="button"].btn-block {
   border-top-right-radius: 0.2rem;
   border-bottom-right-radius: 0.2rem; }
 
+#go-to-top-btn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: grey; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px;
+    padding-top: 10px !important; 
+    padding-bottom: 10px !important; 
+
+    border-radius: 5px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+#go-to-top-btn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+
 .portfolio-header {
   border-radius: 10px;
 }
@@ -4293,8 +4316,8 @@ ol {
 
 ol li {
   counter-increment: ordered-list-counter;
-  padding-top: 15px; 
-  padding-bottom: 15px; 
+  padding-top: 25px; 
+  padding-bottom: 25px; 
   display: flex;
   font-size: 18px; 
   font-family: "Lora"; 
