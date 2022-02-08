@@ -3812,12 +3812,23 @@ input[type="button"].btn-block {
   word-wrap: break-word;
   /* background-color: #fff; */
   /* background-clip: border-box; */
-  border: 1px solid rgba(250, 235, 215, 0.849);
- background-color: #ded1c5; 
+  /* border: 1px solid rgba(250, 235, 215, 0.849);
+ background-color: #ded1c5;  */
  /* antiquewhite  */
 
  /* #d8c6b5 */
+
+ /* border: 1px solid rgba(198, 146, 78, 0.85); */
+
+ /* border: 1px solid rgba(155, 114, 61, 0.85); */
+
   border-radius: 5px; 
+ /* border: 1px solid #787B7F; 
+ background-color: #f0e1d2; */
+
+  border: 1px solid #BAA08A;
+border: 1px solid rgba(155, 114, 61, 0.85);
+background-color: #f9eada;
 
 }
   .card > hr {
@@ -3855,7 +3866,7 @@ input[type="button"].btn-block {
   line-height: 1.5; 
   margin-bottom: 0.75rem;
   padding-bottom: 0.75rem;
-  border-bottom: solid black 3px;
+  border-bottom: solid #BAA08A 3px;
 }
 
 .card-description {
@@ -4284,9 +4295,14 @@ font-weight: 700;
     .section-paragraph-2-column {
       padding-top: 0px; padding-left: 15px !important;} }
 
+      @media (max-width: 576px) {
+        .subsection-paragraph-2-column {
+          padding-top: 10px; padding-left: 15px !important;} }
+
 .section-number {
   padding: 0px;
 }
+
 
 .project-details-title {
   color: #333333;
@@ -4340,6 +4356,15 @@ ol li {
   border-bottom: 1px solid lightslategray; 
 }
 
+.grey-section li {
+  color: #333333;
+  border-bottom: 1px solid lightslategray; 
+}
+
+.grey-section li::before {
+  color: #606060; 
+}
+
 ol li::before {
   content: "0" counter(ordered-list-counter);
   font-family: "Lora"; 
@@ -4369,6 +4394,8 @@ ol li::before {
 
 .grey-section {
   background-color: lightgray;
+  /* background-color: #F2F2F2;  */
+  /* background-color: white; */
   padding-top: 90px;
   padding-bottom: 90px;
 }
