@@ -374,7 +374,8 @@ button:focus {
 ============================================================================================ */
 .banner-area .single_slide_banner {
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat; 
+  }
 .banner-area .slide_bg1 {
   background: url(); }
 .banner-area .slide_bg2 {
@@ -395,7 +396,6 @@ button:focus {
   @media (max-width: 680px) {
     .banner-content {
       padding: 28px 20px;
-      background: #fff;
       margin: 0 15px;
       height: 730px !important;  } }
   .banner-content .primary-btn {
