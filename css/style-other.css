@@ -17,6 +17,12 @@
 
  @import url("https://fonts.googleapis.com/css?family=Inter:400,500,500i,600,600i,700,800,900");
 
+ @import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,500i,600,600i,700,800,900");
+
+ @import url("https://fonts.googleapis.com/css?family=Lato:400,500,500i,600,600i,700,800,900");
+
+
+
  @import url("https://fonts.googleapis.com/css?family=Belleza:400");
 
  @import url("https://fonts.googleapis.com/css?family=Marcellus:400");
@@ -4198,7 +4204,7 @@ background-color: #f9eada;
   padding-bottom: 10px;
   /* margin-top: 50px; */
   margin-bottom: 50px;
-  font-size: 30px;
+  font-size: 34px;
 }
 
 .section-title-with-subtitle {
@@ -4207,7 +4213,7 @@ background-color: #f9eada;
   /* padding-top: 20px; */
   padding-bottom: 0px;
   /* margin-top: 50px; */
-  font-size: 30px;
+  font-size: 34px;
 }
 
 .section-title-2-column {
@@ -4249,10 +4255,11 @@ background-color: #f9eada;
 }
 
 .text {
-  font-family: "Inter", sans-serif; 
+  /* font-family: "Inter", sans-serif;  */
   /* font-family: "Lora", serif; */
+  font-family: "Lato", sans-serif; 
   color: #333333 !important; 
-  font-size: 18px !important;
+  font-size: 20px !important;
   font-weight: 400; 
 }
 
@@ -4264,6 +4271,11 @@ font-weight: 700;
 }
 
 .light-text {
+  color: #bebeb1 !important; 
+  /* #dadace */
+}
+
+.light-text-title {
   color: #FFFEF2 !important; 
 }
 
@@ -4318,15 +4330,15 @@ font-weight: 700;
 }
 
 .project-details-label{
-  font-family: "Open Sans", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 14px; 
   font-weight: 700;
   margin-bottom: 0px !important;
 }
 
 .project-details {
-  font-family: "Open Sans", sans-serif;
-  font-size: 18px; 
+  font-family: "Lato", sans-serif;
+  font-size: 20px; 
   margin-bottom: 30px;
 }
 
@@ -4342,7 +4354,7 @@ ol li {
   padding-top: 25px; 
   padding-bottom: 25px; 
   display: flex;
-  font-size: 18px; 
+  font-size: 16px; 
   font-family: "Lora"; 
   font-weight: 400; 
 }
@@ -4352,7 +4364,7 @@ ul {
 }
 
 .dark-section li {
-  color: #fff;
+  color: #dadace;
   border-bottom: 1px solid #fff; 
 }
 
