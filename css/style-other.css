@@ -4188,6 +4188,7 @@ background-color: #f9eada;
   border-radius: 10px; 
 }
 
+
 .title {
   font-family: "Inter"; 
   font-weight: 900; 
@@ -4205,6 +4206,26 @@ background-color: #f9eada;
   /* margin-top: 50px; */
   margin-bottom: 50px;
   font-size: 34px;
+}
+
+.more-projects-title {
+  font-family: "Inter", sans-serif; 
+  font-weight: 700; 
+  padding-top: 80px; 
+  border-top: 6px solid #333333;
+  padding-bottom: 30px;
+  /* margin-top: 50px; */
+  margin-bottom: 50px;
+  font-size: 22px;
+}
+
+.more-projects-label {
+  font-family: "Inter", sans-serif;
+  font-size: 18px; 
+  color: #333333;
+  font-weight: 500; 
+  text-align: center;
+  
 }
 
 .section-title-with-subtitle {
@@ -4360,7 +4381,7 @@ ol li {
 }
 
 ul {
-  padding-left: 20px !important;
+  /* padding-left: 20px !important; */
 }
 
 .dark-section li {
@@ -4490,8 +4511,8 @@ transform: scale(1.01);
 
 .work-description {
   font-weight: 400 !important;
-  font-size: 16px;
-  /* font-family: "Lora"; */
+  font-size: 17px;
+  font-family: "Lato";
   margin-bottom: 0px !important;
   padding-top: 0px;
   padding-left: 20px; 
@@ -4519,7 +4540,7 @@ transform: scale(1.01);
 
   font-size: 14px;
   color: #000;
-  font-family: "Inter", sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 400;
   padding: 7px 11px;
   background-color: #ededed;
@@ -8580,7 +8601,7 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6; } }
 
 body {
-  font-family: "Inter", "Open Sans", sans-serif;
+  font-family: "Lato", "Inter", sans-serif;
   background: #fff;
   font-size: 16px;
   line-height: 1.8;
@@ -8645,14 +8666,14 @@ h1, h2, h3, h4, h5,
       padding-bottom: 20px;
       margin-right: 0; } }
   .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
-    font-size: 16px;
+    font-size: 17px;
     padding-top: .7rem;
     padding-bottom: .7rem;
     padding-left: 20px;
     padding-right: 20px;
-    color: #000000;
+    color: #333333;
     font-weight: 500;
-    font-family: "Open Sans", sans-serif; 
+    font-family: "Inter", sans-serif; 
     opacity: 1 !important; }
     .ftco-navbar-light .navbar-nav > .nav-item > .nav-link span {
       position: relative;
@@ -8665,7 +8686,7 @@ h1, h2, h3, h4, h5,
         content: "";
         position: absolute;
         width: 100%;
-        height: 2px;
+        height: 2.2px;
         bottom: 0;
         left: 0;
         background: #333333;
@@ -8925,7 +8946,7 @@ h1, h2, h3, h4, h5,
     right: 0;
     bottom: 0;
     content: '';
-    background: #fff;
+    background: #FFFEF2;
     z-index: -1;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
@@ -8941,9 +8962,9 @@ h1, h2, h3, h4, h5,
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
-  -webkit-animation: 1.6s ease infinite wheel-up-down;
-  -moz-animation: 1.6s ease infinite wheel-up-down;
-  animation: 1.6s ease infinite wheel-up-down;
+  /* -webkit-animation: 2.5s ease infinite wheel-up-down;
+  -moz-animation: 2.5s ease infinite wheel-up-down;
+  animation: 2.5s ease infinite wheel-up-down; */
   color: #333333;
   font-size: 30px; }
 

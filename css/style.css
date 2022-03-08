@@ -417,7 +417,7 @@ button:focus {
         margin-top: 0px; } }
   .banner-content h3 {
     font-size: 22px;
-    font-family: "Inter", sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: 400;
     color: #333333;
     line-height: 30px;
@@ -2911,20 +2911,50 @@ h6 {
 /* Footer Area css
 ============================================================================================ */
 .footer_area {
-  background: #ffd200; }
+  background: darkslategray; 
+  padding-bottom: 40px !important; 
+
+}
+
+.footer-text {
+  color: white;
+  font-family: Lora;
+}
+
+
+h4.footer-text {
+  font-family: "Lora";
+  font-size: 30px;
+  font-weight: 700;
+}
+
+p.footer-text {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.footer-disclaimer p {
+
+  padding-top: 50px;
+  font-family: "Lora"; 
+  font-size: 14px;
+  font-weight: 300;
+}
 
 .social_widget .f_title h4 {
   font-size: 21px;
   margin: 40px 0 20px;
   color: #000; }
 .social_widget p {
-  font-size: 14px;
+  /* font-size: 14px;
   line-height: 24px;
   font-family: "Roboto", sans-serif;
   color: #777777;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;  */
+}
 .social_widget .list li {
   margin-right: 40px;
+  padding-left: 0px !important; 
   display: inline-block; }
   .social_widget .list li a {
     color: #c48e0b;
