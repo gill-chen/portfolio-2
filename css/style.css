@@ -410,11 +410,15 @@ button:focus {
     color: #333333;
     font-size: 60px;
     font-weight: 900;
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    padding-top: 60px;  
+  }
     @media (max-width: 991px) {
       .banner-content h1 {
         font-size: 40px;
-        margin-top: 0px; } }
+        margin-top: 0px; 
+        padding-top:  0px;
+      } }
   .banner-content h3 {
     font-size: 22px;
     font-family: "Lato", sans-serif;
@@ -2912,7 +2916,7 @@ h6 {
 ============================================================================================ */
 .footer_area {
   background: darkslategray; 
-  padding-bottom: 40px !important; 
+  padding-bottom: 120px !important; 
 
 }
 
@@ -2935,7 +2939,7 @@ p.footer-text {
 
 .footer-disclaimer p {
 
-  padding-top: 50px;
+  padding-top: 20px;
   font-family: "Lora"; 
   font-size: 14px;
   font-weight: 300;
