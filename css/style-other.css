@@ -4430,6 +4430,14 @@ blockquote:after {
   padding-right: 50px;
 }
 
+.citation {
+  font-size: 12px;
+  font-family: "Lato";
+  color: #333333;
+  color: rgba(0, 0, 0, 0.5);
+  padding-top: 3px;
+}
+
 .text {
   /* font-family: "Inter", sans-serif;  */
   /* font-family: "Lora", serif; */
@@ -4448,6 +4456,10 @@ font-weight: 700;
 
 .light-text {
   color: #bebeb1 !important;   /* #dadace */
+}
+
+.light-text strong {
+  color: #e8e8e3 !important;
 }
 
 .about-text {
@@ -4576,6 +4588,15 @@ ol li {
 
 .grey-section li::before {
   color: #606060; 
+}
+
+.default-section li {
+  color: #333333;
+  border-bottom: 1px solid #af9b88; 
+}
+
+.default-section li::before {
+  color: #887c6f; 
 }
 
 ol li::before {
