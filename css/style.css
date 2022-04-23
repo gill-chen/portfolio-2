@@ -2916,12 +2916,13 @@ h6 {
 ============================================================================================ */
 .footer_area {
   background: darkslategray; 
-  padding-bottom: 120px !important; 
+  padding-top: 210px !important; 
+  padding-bottom: 190px !important; 
 
 }
 
 .footer-text {
-  color: white;
+  color: #FFFEF2;
   font-family: Lora;
 }
 
@@ -2943,7 +2944,8 @@ p.footer-text {
   font-family: "Lora"; 
   font-size: 14px;
   font-weight: 300;
-  color: #c6c6c6; 
+  /* color: #c6c6c6;  */
+  color: #FFFEF2; 
 }
 
 .social_widget .f_title h4 {

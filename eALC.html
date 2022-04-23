@@ -43,12 +43,15 @@
 
 	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"> -->
 
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
 
 </head>
 
 <body style="background-color: #FFFEF2;">
 	<button onclick="topFunction()" id="go-to-top-btn" title="Back to Top">
-		<i class="fa fa-angle-up fa-2x"></i>
+		<span class="material-icons" id="go-to-top-arrow">
+			arrow_upward
+			</span>
 	</button>
 
 
@@ -66,9 +69,9 @@
 	
 			  <div class="collapse navbar-collapse" id="ftco-nav">
 				<ul class="navbar-nav nav ml-auto">
-				  <li class="nav-item"><a href="#home-section" class="nav-link"><span>About</span></a></li>
-				  <li class="nav-item"><a href="#about-section" class="nav-link"><span>Work</span></a></li>
-				  <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Contact</span></a></li>
+					<li class="nav-item"><a href="index.html#work" class="nav-link"><span>Work</span></a></li>
+					<!-- <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Past</span></a></li>				   -->
+					<li class="nav-item"><a href="about.html" class="nav-link"><span>About</span></a></li>
 				</ul>
 			  </div>
 			</div>
@@ -99,7 +102,7 @@
 		<!--================ Start Portfolio Details Area =================-->
 		<section style ="padding-bottom: 0px !important" class="section_gap" >
 			<div class="container">
-				<div style="background-color: #3C7E90;" class="portfolio_details_inner portfolio-header">
+				<div style="background-color: #367B2B;" class="portfolio_details_inner portfolio-header">
 					<div class="row justify-content-center">
 						<div class="col-lg-8 text-center">
 							<img style="padding: 50px;" class="img-fluid w-100" src="img/eALC/eALC thumbnail report.png" alt="">
@@ -135,7 +138,8 @@
 						<div class="">
 							<!-- <h4 class="project-details-title">Context</h4> -->
 							<p class="generic-blockquote text">
-								In order to monitor and facilitate timely transfer or discharge of patients who require alternate levels of care (ALC), but do not require the intensity of care provided in their current setting, Sunnybrook Hospital (SHSC) has developed their own corporate software ‘eALC’ for online collection and reporting of ALC metrics. eALC also sends real-time ALC data to the Wait Time Information (WTIS) system under the Ministry of Health and Long Term Care (MOHLTC). 
+								In order to monitor and facilitate timely transfer or discharge of patients who require 
+								alternate levels of care (ALC), but do not require the intensity of care provided in their current setting, Sunnybrook Hospital (SHSC) has developed their own corporate software ‘eALC’ for online collection and reporting of ALC metrics. eALC also sends real-time ALC data to the Wait Time Information (WTIS) system under the Ministry of Health and Long Term Care (MOHLTC). 
 
 								<br>
 								<br>
@@ -148,13 +152,17 @@
 					<div class="col-md-5">
 						<div class="text">
 							<div class="row">
-							<div class="col-lg-12">
+							<div class="col-md-6">
 								<!-- <div>
 									<h5 class="project-details-label">Timeline</h5>
 									<p class="project-details">Jan - Jun 2021
 									</p>
 								</div>	 -->
-
+								<div>
+									<h5 class="project-details-label">Timeline</h5>
+									<p class="project-details">7 months from late 2019 to Sept 2021 <br> (on hold for a year due to COVID)
+									</p>
+								</div>	
 								<div>
 									<h5 class="project-details-label">Client</h5>
 									<p class="project-details">Sunnybrook Health Sciences Centre (SHSC)
@@ -167,31 +175,36 @@
 									</p>
 								</div>	
 
+							</div>
 								<!-- <div>
 									<h5 class="project-details-label">Team</h5>
 									<p class="project-details">1 Project Lead and 2 Developers
 									</p>
 								</div>								 -->
 								
-								<div>
-									<h5 class="project-details-label">Platform</h5>
-									<p class="project-details">Website App
-									</p>
-								</div>	
-								
-								<div>
-									<h5 class="project-details-label">Methods</h5>
-									<p class="project-details">Usability Testing, Observations
-									</p>
-								</div>	
+								<div class="col-md-6">
+									<div>
+										<h5 class="project-details-label">Platform</h5>
+										<p class="project-details">Website App
+										</p>
+									</div>	
 
-								<div>
-									<h5 class="project-details-label">Timeline</h5>
-									<p class="project-details">7 months from late 2019 to Sept 2021 (on hold for a year due to COVID priority projects)
-									</p>
-								</div>	
+									<div>
+										<h5 class="project-details-label">Tools</h5>
+										<p class="project-details">Axure, Figma, Zoom, Jira 
+										</p>
+									</div>					
 
-							</div>
+									<div>
+										<h5 class="project-details-label">Methods</h5>
+										<p class="project-details">Usability Testing (Moderated, In-person and Remote), Interviews, Heuristic Evaluation, Wire-framing, Prototyping 
+										</p>
+									</div>	
+
+									
+								</div>
+
+
 							
 						</div>
 
@@ -266,7 +279,8 @@
 
 						<div class="col-md-8 section-paragraph-2-column">
 							<p class="text">
-								eALC’s main front-facing functionality is an electronic ‘form’ for social workers to provide information about the patient once they are designated as requiring ALC. Once the social worker submits the form, eALC sends its information as a waitlist entry for the patient to WTIS. Depending on the patient’s outcome, the form can be updated, e.g. transferred, returned to acute, discharged, discontinued – any updates are sent to WTIS as well.  
+								eALC’s main front-facing functionality is 
+								<strong>an electronic ‘form’ for social workers to provide information about the patient once they are designated as requiring ALC.</strong> Once the social worker submits the form, eALC sends its information as a waitlist entry for the patient to WTIS. Depending on the patient’s outcome, the form can be updated, e.g. transferred, returned to acute, discharged, discontinued – any updates are sent to WTIS as well.  
 								<br> 
 
 							</p>						
@@ -279,18 +293,17 @@
 
 							<p class="text">
 							<br>
-								Since eALC is a complex system that collects data specific to requirements defined by WTIS, I had to first understand what they were, how it was being structured, and all possible workflows/scenarios with the system. I worked closely with my project lead to understand the workflows, and read previous functional requirements documentation for details on form fields. I also reviewed the ALC reference manual published by WTIS, which was helpful in understanding ALC definitions and recommended clinical guidance in designating a patient ALC. 
+								Since eALC is a complex system that collects data specific to requirements defined by WTIS, I had to first understand what they requirements were, how the data was being structured, and all possible workflows/scenarios with the system. I worked closely with my project lead to understand the workflows, and read previous functional requirements documentation for details on form fields. I also reviewed the ALC reference manual published by WTIS, which was helpful in understanding ALC definitions and recommended clinical guidance in designating a patient ALC. 
 
 							</p>
-
-
-
 
 							<p class="annotation" style="padding-top: 30px; text-align: center; font-family: Lora; font-weight: 600; margin-bottom: 10px !important"> 
 								Guiding Principles for Designating a Patient ALC
 							</p>
 							<img class="img-fluid w-100" src="img/eALC/Guiding Principles ALC.png" alt="">
 							<p class="citation">From ALC Reference Manual V2, Ontario Health</p>
+
+
 						</div>
 
 					</div>
@@ -302,24 +315,114 @@
 					<div class="row">
 						<div class="col-md-4 section-title-2-column">
 
-							<h4 class="subtitle">Identifying Pain Points
+							<h4 class="subtitle">Heuristic Evaluation
 							</h4>
 
 						</div>
 
 						<div class="col-md-8 section-paragraph-2-column" style="padding-top: 30px;">
 							<p class="text">
-								The current form had many fields that can be overwhelming - and after conducting observation sessions, it became clear that there are a few usability issues that could affect reporting, e.g. some field labels were unclear in what they were asking the user to input. 
+								In order to meet the requirements set by WTIS, the current form itself had many fields for users to fill in. There were fields asking for different dates relating to the patient's ALC designation, e.g. most appropriate designation discharge date, which was difficult to input without knowing which date it's exactly asking for in relation to the ALC process. 
+								Thus, 
+								<strong>
+								I decided to do a heuristic evaluation of the current system, in order to identify and prioritize usability issues according to tried-and-true usability principles. It revealed quite a few issues as presented in two high level themes below. 
+
+								</strong>
+								<br>
+							<br>
+							<strong class="ul-header">Form Content and Design</strong>
+							<ul>
+								<li>
+									<strong>Extraneous information not related to the users’ selection:</strong>
+									The ALC designation section shows all selection details before the user has made their selection. Too much information unrelated to the user’s selection can be overwhelming to process at a glance
+
+								</li>
+
+								<li>
+									<strong>Related form fields not grouped together:</strong>
+									The form is pretty long to begin with, and especially since similar fields are not grouped together, it makes it difficult to make 
+									sense of the information that needs to be filled in
+								</li>
+
+								<li>
+									<strong>Irrelevant form content:</strong>
+									There’s a section in the form relating to the percentage breakdown of ALC patients in Sunnybrook is irrelevant to the typical user,
+									which is for the quality management and decision support team to keep track of ALC data at Sunnybrook. Thus, there's no need for it to be in the form itself
+								</li>
+
+								<li>
+									<strong>Cluttered form design:</strong>
+									As highlighted by the points above, there are content in the form that are unnecessary to the users. Furthermore, the use of bright colours and the lack of local flow of the form competes with the user’s attention, making it 
+								</li>
+							</ul>
+							<br>
+
+							<p class="text">
+								<strong class="ul-header">Action Task Buttons</strong>
+								<br>
+							</p>
+
+
+							<ul>
+								<li>
+									<strong>Labeling with insufficient meaning:</strong>
+									The ALC designation section shows all selection details before the user has made their selection. Too much information unrelated to the user’s selection can be overwhelming to process at a glance
+
+								</li>
+
+								<li>
+									<strong>Related form fields not grouped together:</strong>
+									The form is pretty long to begin with, and especially since similar fields are not grouped together, it makes it difficult to make 
+									sense of the information that needs to be filled in
+								</li>
+
+							</ul>
+							
+
+
+						</p>
+
+
+						
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+
+			<div class="container sub-section">
+				<div class="portfolio_details_inner">
+					<div class="row">
+						<div class="col-md-4 section-title-2-column">
+
+							<h4 class="subtitle">Identifying Redesign Goals
+							</h4>
+
+						</div>
+
+						<div class="col-md-8 section-paragraph-2-column" style="padding-top: 30px;">
+							<p class="text">
+								Keeping in mind that problems identified in the heuristic evaluation are not necessarily indicative of genuine problem elements within the design, we reached out to get user feedback. 
+
+								After consulting with frequent users of eALC, it confirmed our suspicions about issues identified earlier, and 
+								<strong>revealed that it also affected the accuracy of the reporting, with date related form fields being particularly problematic.  </strong>
 							<br>
 							<br>
-							Here are some of the goals we focused on during the re-design: 
-			
+
+							Furthermore, the form has to be completed within 48 hours of a patient designated ALC or any updates to their ALC status, so it is 
+							<strong>also critical that users has quick access to start the form</strong>, as well as a clear indication on when they last updated it so they can keep track of it. 
+							<br>
+							<br>
+							<strong>							
+								Given these considerations, we decided to focus on the following goals in the re-design: 			
+							</strong>
 							<br>
 						</p>
 
 							<ol class="numbered-list">
 								<li>
-									Improve form design - create clearer labels for form fields, and provide more guidance for filling out the form fields 
+									Re-vamp form design and layout - e.g. create clearer labels for form fields, remove extraneous content, and provide more guidance and clear definitions for form fields
 
 								</li>
 								<li>Clearly show the status of the form, e.g. when it was last updated, and who updated it 
@@ -352,12 +455,15 @@
 
 						<div class="col-md-8 section-paragraph-2-column">
 							<p class="text">
-								I created a few versions of the redesign and we went through multiple rounds of feedback before bringing it to the users. As the sole designer, I created, recruited and moderated the usability tests with approximately 4 participants for each ‘iteration’, to a total of 17 participants. Through this process, we were able to validate whether the changes were successful, thus improving on each iteration. 
-
-							<br>
-							<br>
-
-							Some changes we did to improve usability: 
+								Using the insights we gathered, I created a few versions of the redesign and went through multiple rounds of feedback internally first before bringing it to the users for their feedback. This is to ensure what we're presenting is 
+								technically viable, and that we catch any glaring issues first as we need to be extremely conscious with our users' time (as we all know, our users are kindly sparing what little time they have in their very busy schedules!) 
+								
+						
+								<br>
+								<br>
+								<!-- We have to be especially conscious of our users' time since they are consistently busy, so we try to be efficient with the short amount of time we have wit h before presenting it to the users. -->
+								
+								<strong>Here are some changes we made as a result of the redesign:</strong>
 							</p>
 							<ol class="numbered-list">
 								<li style="border-bottom: none;">
@@ -368,18 +474,44 @@
 								<img style="padding-left: 70px; padding-bottom: 30px; height: 60% !important;" class="img-fluid w-100" src="img/eALC/alc tooltip hd.png" alt="">
 
 								<li style="border-bottom: none;">
-									Redesigned the layout of the form, i.e. grouped similar fields together and provided headers to provide better guidance and structure to the form 
+									Redesigned the layout of the form, e.g. grouped similar fields together and provided headers to provide better guidance and structure to the form 
 
 								</li>
 
 								<img style="width: 80% !important; padding-left: 70px; padding-bottom: 50px;" class="img-fluid w-100 portfolio-header-img" src="img/eALC/group similar fields.png" alt="">
 
 								<li style="border-bottom: none;">
-									Since social workers often worked from different patient lists, e.g. unit, location based, we added a button ‘Start / Designate ALC’ that was only visible to social workers so it wouldn’t clutter the view for other SunnyCare users 
+									Since users often worked from different patient lists, e.g. unit, location based, we added a button ‘Start / Designate ALC’ that was only visible to social workers so it wouldn’t clutter the view for other SunnyCare users 
 								</li>
 								<img style="padding-left: 40px; padding-bottom: 30px;" class="img-fluid w-100 portfolio-header-img" src="img/eALC/start and designate alc.png" alt="">
 
 							</ol>	
+							
+							<p class="text">
+								<br>
+								As the sole designer, 
+								I created, recruited and moderated the usability tests with 17 participants, with approximately 4 participants for each ‘iteration’. 
+								<strong>Through this process of testing the changes every 4 participants, we were able to validate whether the changes were successful, and worked to improve the design on every iteration.
+									 </strong>
+							</p>
+
+							<p class="annotation" style="text-align: center; margin-bottom: 10px !important"> 
+
+								Screenshot from one of my online user testing sessions!
+							</p>
+
+							<img class="img-fluid w-100" src="img/eALC/zoom2.png" alt="">
+							<br>
+							<br>
+							<br>
+
+							<p class="text">
+
+							As soon as we finished usability testing, I worked on finalizing the clickable prototype and demo-ed it, and also presented our usability findings to get green light on our project. This was successful in
+							getting buy-in from our hospital's clinical leaders, as they could see how the product would work in real-life, reinforced with findings to back up our design decisions. 
+						
+							</p>
+
 						</div>
 
 					</div>
@@ -393,7 +525,7 @@
 
 
 		<!--================ Start Portfolio Section 2 columns paragraph with subtitle =================-->
-		<section class="dark-section" style="padding-bottom: 50px;" >
+		<section class="dark-section" style="padding-bottom: 90px;" >
 			<div class="container" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out" data-aos-offset="200" data-aos-delay="50" data-aos-once="false">
 				<div class="portfolio_details_inner">
 					<div class="row">
@@ -410,38 +542,6 @@
 							Working closely with the project lead and developers, we went live with ALC in SunnyCare in Sept 2021! The new feature now allows users to access and manage their patients’ ALC records from SunnyCare, and its easy access also allows the patient’s circle of care, e.g. physicians, nurses, to view their ALC record. 						</div>
 					</div>
 
-					<div class="row" style="padding-top: 40px;">
-						<div class="col-md-4">
-							<div class="blockquote">
-								<h1>
-									"It has personally improved my workflow because now I’m able to input key discharge plan related information into the discharge summary instead of relying on the physician or resident…therefore promoting a more collaborative approach to creating a holistic discharge summary for the patient"						
-								</h1>
-								<h4>
-									&mdash; Occupational Therapist<br> <em>Trauma Service</em>
-								</h4>
-							</div>
-						</div>
-
-						<div class="col-md-4">
-							<div class="blockquote">
-								<h1>
-									"Appreciate the ability to easily access other notes and results on the same screen, and the ability to copy and paste into the DS, [as well] as the ability to import signout info"								</h1>
-									<h4>
-										&mdash;Resident<br><em>Unit C4</em>
-									</h4>
-								</div>
-						</div>
-
-						<div class="col-md-4">
-							<div class="blockquote">
-								<h1>
-									“Searching for patients' DS from the [old] eDischarge web application was time consuming. The new Disch Sum [patient list] column provides easier and quicker access to patients’ DS on the unit”								</h1>
-									<h4>
-										&mdash;Charge Nurse<br><em>Unit D6</em>
-									</h4>
-								</div>
-						</div>
-					</div>
 				</div>
 			</div>
 		</section>
@@ -472,7 +572,7 @@
 
 						<div class="col-md-8 section-paragraph-2-column" style="padding-top: 30px;">
 							<p class="text">
-								Due to the lack of technical resources and a looming deadline, we were asked to integrate just the main functionalities, without any changes if possible. I learned to push for design improvements that would have real impact, while being conscious of developers’ time and not pushing for ‘pixel-perfection’. Due to the time and resource limitations of the project, we had to focus on improvements that would have real impact to the users. 
+								Due to the lack of technical resources and a looming deadline, we were asked to integrate just the main functionalities, without any changes if possible. I learned to push for design improvements that would bring the most value to users, while being conscious of developers’ time and not pushing for ‘pixel-perfection’. Due to the time and resource limitations of the project, we had to focus on improvements that would have real impact to the users. 
 							</p>
 
 						</div>
@@ -508,26 +608,38 @@
 
 		<section class="nocolour-section">
 			<div class="container">
-				<div class="row justify-content-center">
+				<div class="row">
 					<div class="col-lg-12">
 	
 						<h4 class="more-projects-title" style="text-align: center;">More Projects
 						</h4>
 					</div>
-	
+
 					<div class="col-md-4">
+						<a style="padding-top: 0px !important" href="national-gallery.html"><img class="img-fluid w-100" src="img/home-page/eDischarge.png" alt=""></a>
+						<a class="more-projects-label" href="eDischarge.html" target="_blank">Discharge Summaries in SunnyCare</a>
+					</div>
+	
+					<!-- <div class="col-md-4">
 						<a style="padding-top: 0px !important" href="national-gallery.html"><img class="img-fluid w-100" src="img/home-page/national-gallery-thumbnail.png" alt=""></a>
 						<a class="more-projects-label" href="national-gallery.html" target="_blank">National Gallery App</a>
-					</div>
+					</div> -->
 	
 					<div class="col-md-4">
-						<a style="padding-top: 0px !important" href="urban-studies.html"><img class="img-fluid w-100" src="img/home-page/urban studies thumbnail.png" alt=""></a>
+						<a style="padding-top: 0px !important" href="urban-studies.html"><img class="img-fluid w-100" src="img/home-page/chi 2021 thumbnail grey.png" alt=""></a>
+						<a class="more-projects-label" href="urban-studies.html" target="_blank">CHI 2021 LBW Publication</a>
+					</div>
+
+					<div class="col-md-4">
+						<a style="padding-top: 0px !important" href="urban-studies.html"><img class="img-fluid w-100" src="img/home-page/urban studies thumbnail blue.png" alt=""></a>
 						<a class="more-projects-label" href="urban-studies.html" target="_blank">Urban Studies Website</a>
 					</div>
-	
-					<div class="col-md-4">
-						<a style="padding-top: 0px !important" href="event-buddy.html"><img class="img-fluid w-100" src="img/home-page/event-buddy-tile.png" alt=""></a>
 
+				</div>
+
+				<div class="row" style="padding-top: 50px;">
+										<div class="col-md-4">
+						<a style="padding-top: 0px !important" href="event-buddy.html"><img class="img-fluid w-100" src="img/home-page/event-buddy-tile.png" alt=""></a>
 						<a class="more-projects-label" href="event-buddy.html" target="_blank">Event Buddy App</a>
 					</div>
 				</div>

@@ -35,6 +35,10 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/style-other.css">
 
+	<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+
+
+
 	<!-- <link rel="stylesheet" href="css/ionicons.min.css"> -->
 
 	<!-- <link rel="stylesheet" href="css/ionicons.min.css"> -->
@@ -63,13 +67,13 @@
 			  <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="oi oi-menu"></span> Menu
 			  </button>
-	
+
 			  <div class="collapse navbar-collapse" id="ftco-nav">
 				<ul class="navbar-nav nav ml-auto">
-				  <li class="nav-item"><a href="index.html#work" class="nav-link"><span>Work</span></a></li>
-				  <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Past</span></a></li>				  
-				  <li class="nav-item"><a href="about.html" class="nav-link"><span>About</span></a></li>
+					<li id="work-button" class="nav-item"><a href="index.html#work" class="nav-link"><span>Work</span></a></li>
+				  <!-- <li class="nav-item"><a href="#resume-section" class="nav-link"><span>More</span></a></li> -->
 
+				  <li class="nav-item"><a href="about.html" class="nav-link"><span>About</span></a></li>
 				</ul>
 			  </div>
 			</div>
@@ -78,23 +82,23 @@
 	</div>
 </header>
 
-
-
 		<!--================ Start Portfolio Section 2 columns paragraph with points  =================-->
 		<section class="about-section">
 			<div class="container sub-section">
 				<div class="portfolio_details_inner">
 					<div class="row">
-						<div class="col-md-5 section-title-2-column">
-
-							<h4 class="subtitle about-text">Study Results and Insights 
-							</h4>
+						<div class="col-md-5 section-title-2-column" style="padding-left: 70px; 
+						padding-right: 70px !important;" data-aos="fade-down-right" data-aos-easing="ease-in-out-quart" data-aos-duration="800" data-aos-delay="200" data-aos-anchor-placement="top-bottom" data-aos-once="false">
+							<div class="tape">
+								<img src="img/About/tape.gif">
+							</div>
+							<img class="w-100 about-pic rotate" src="img/About/profilepic2.jpeg" alt="">
 
 						</div>
 
-						<div class="col-md-7 about-section" style="padding-top: 30px;">
+						<div class="col-md-7" data-aos="fade-down-left" data-aos-easing="ease-in-out-quart" data-aos-duration="800" data-aos-delay="200" data-aos-anchor-placement="top-bottom" data-aos-once="false">
 							<p class="about-text text">
-								Hello! I’m Gillian, a UX designer currently working at Sunnybrook Health Sciences Centre where I designed some of the hospital’s main EHR features such as discharge summaries, alternate level of care reporting and photo upload functionality. 
+								Hello! I’m Gillian, a UX designer currently working at Sunnybrook Health Sciences Centre where I designed some of the hospital’s main EHR features such as its discharge summaries module, alternate level of care reporting and photo upload functionality. 
 
 								<br>
 								<br> 
@@ -102,7 +106,7 @@
 								
 								<br>
 								<br>
-								Aside from UX, I enjoy all things music, playing video games and connecting with new people. 
+								Aside from UX, I enjoy all things music, landscape paintings and connecting with new people. 
 								Feel free to reach out through 
 								<a style="text-decoration:underline; display: inline;" href="mailto: gillian.chen@mail.utoronto.ca" target="_blank">email</a>
 
@@ -170,6 +174,8 @@
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
 
+
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
 	<script>
 	  AOS.init();
