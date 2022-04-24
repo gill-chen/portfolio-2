@@ -25,7 +25,7 @@
 
 </head>
 
-<body style="background-color: #FFFEF2;">
+<body onload='zoom()' style="background-color: #FFFEF2;">
 	<button onclick="topFunction()" id="go-to-top-btn" title="Back to Top">
 		<span class="material-icons" id="go-to-top-arrow">
 			arrow_upward
@@ -682,7 +682,7 @@
 							focused on digital products at our program. 
 							It was a fulfilling learning experience, and here are some lessons we learned along the way! 
 							</p>
-							<ol class="numbered-list">
+							<ol class="light-text numbered-list">
 								<li>
 									Clarify scenarios more explicitly, e.g. the first scenario was not clear in how to set up the clock,
 									and some participants plugged it in and changed the time from 12 to 24 hours instead of setting up
@@ -712,7 +712,46 @@
 		<!--================ End Portfolio Section 2 Columns with subtitle  =================-->
 
 
+		<section class="dark-section">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-12">
+	
+						<h4 class="more-projects-title" style="text-align: center;">More Projects
+						</h4>
+					</div>
+	
+					<div class="col-md-4">
+						<a style="padding-top: 0px !important" href="eDischarge.html"><img class="img-fluid w-100" src="img/home-page/eDischarge.png" alt=""></a>
+						<a class="more-projects-label" href="eDischarge.html" target="_blank">Discharge Summaries in SunnyCare</a>
+					</div>
 
+
+					<div class="col-md-4">
+						<a style="padding-top: 0px !important" href="eALC.html"><img class="img-fluid w-100" src="img/home-page/eALC thumbnail.png" alt=""></a>
+						<a class="more-projects-label" href="eALC.html" target="_blank">Sunnybrook ALC Reporting App</a>
+					</div>
+
+					<div class="col-md-4">
+						<a style="padding-top: 0px !important" href="urban-studies.html"><img class="img-fluid w-100" src="img/home-page/chi 2021 thumbnail grey.png" alt=""></a>
+						<a class="more-projects-label" href="urban-studies.html" target="_blank">CHI 2021 LBW Publication</a>
+					</div>
+
+				</div>
+
+				<div class="row" style="padding-top: 50px;">
+					<div class="col-md-4">
+						<a style="padding-top: 0px !important" href="urban-studies.html"><img class="img-fluid w-100" src="img/home-page/urban studies thumbnail blue.png" alt=""></a>
+						<a class="more-projects-label" href="urban-studies.html" target="_blank">Urban Studies Website</a>
+					</div>
+
+					<div class="col-md-4">
+						<a style="padding-top: 0px !important" href="event-buddy.html"><img class="img-fluid w-100" src="img/home-page/event-buddy-tile.png" alt=""></a>
+						<a class="more-projects-label" href="event-buddy.html" target="_blank">Event Buddy App</a>
+					</div>
+				</div>
+			</div>
+		</section>
 
 	<!--================Footer Area =================-->
 	<footer class="footer_area section_gap">
@@ -766,6 +805,12 @@
 	<script>
 	  AOS.init();
 	</script>
+
+<script type="text/javascript">
+	function zoom() {
+		document.body.style.zoom = "93%" 
+	}
+</script>
 
 
 	<script src="js/jquery-3.2.1.min.js"></script>
