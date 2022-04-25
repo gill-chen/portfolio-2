@@ -4224,9 +4224,20 @@ background-color: #f9eada;
 
 .more-projects-title {
   font-family: "Inter", sans-serif; 
-  font-weight: 700; 
+  font-weight: 900; 
   padding-top: 80px; 
-  border-top: 6px solid #333333;
+  border-top: 4px solid #333333;
+  padding-bottom: 30px;
+  /* margin-top: 50px; */
+  margin-bottom: 50px;
+  font-size: 22px;
+}
+
+.more-projects-title-2 {
+  font-family: "Inter", sans-serif; 
+  font-weight: 900; 
+  padding-top: 40px; 
+  /* border-top: 6px solid #333333; */
   padding-bottom: 30px;
   /* margin-top: 50px; */
   margin-bottom: 50px;
@@ -4749,7 +4760,7 @@ ol li::before {
 }
 
 .thumbnail {
-  padding-left: 25px !important;
+  padding-left: 20px !important;
   padding-right: 25px !important;
 }
 

@@ -40,7 +40,7 @@ body {
 html,
 body {
   height: 100%; 
-  zoom: 95%; 
+  /* zoom: 95%;  */
 }
 
 h1,
@@ -2917,37 +2917,37 @@ h6 {
 /* Footer Area css
 ============================================================================================ */
 .footer_area {
-  background: darkslategray; 
-  padding-top: 210px !important; 
-  padding-bottom: 190px !important; 
+  /* background: darkslategray;  */
+  /* padding-top: 210px !important; 
+  padding-bottom: 190px !important;  */
+
+  /* padding-top: 0px !important; 
+  padding-bottom: 100px !important;  */
+  /* border-top: 1px dashed grey;  */
+  background: #333333; 
+  padding-top: 50px !important; 
+  padding-bottom: 50px !important;  
 
 }
 
-.footer-text {
-  color: #FFFEF2;
-  font-family: Lora;
+.footer-disclaimer {
+  /* padding-left: 15px;  */
 }
-
-
-h4.footer-text {
-  font-family: "Lora";
-  font-size: 30px;
-  font-weight: 700;
-}
-
-p.footer-text {
-  font-size: 20px;
-  font-weight: 400;
-}
-
 .footer-disclaimer p {
-
-  padding-top: 20px;
-  font-family: "Lora"; 
-  font-size: 14px;
+  /* border-top: 2px solid #bbb9a6; */
+  /* text-align: left;  */
+  padding-top: 10px;
+  margin-bottom: 0px !important; 
+  font-family: "Inter"; 
+  font-size: 16px;
   font-weight: 300;
   /* color: #c6c6c6;  */
+  /* color: #bbb9a6;  */
+  /* color: #8b886d;  */
   color: #FFFEF2; 
+
+
+
 }
 
 .social_widget .f_title h4 {
@@ -2962,12 +2962,22 @@ p.footer-text {
   margin-bottom: 10px;  */
 }
 .social_widget .list li {
-  margin-right: 40px;
+  margin-left: 3px;
+  margin-right: 10px;
   padding-left: 0px !important; 
+  text-align: center; 
   display: inline-block; }
   .social_widget .list li a {
-    color: #c48e0b;
-    font-size: 36px;
+    /* color: #c48e0b; */
+
+    /* color: #bbb9a6;  */
+    /* color: #8b886d;  */
+    color: #FFFEF2; 
+
+
+    
+    font-size: 18px;
+
     -webkit-transition: all 0.4s ease 0s;
     -moz-transition: all 0.4s ease 0s;
     -o-transition: all 0.4s ease 0s;
@@ -2975,7 +2985,7 @@ p.footer-text {
   .social_widget .list li:last-child {
     margin-right: 0px; }
   .social_widget .list li:hover a {
-    color: #e45447; }
+    color: #ffc43a; }
 
 .copyright {
   margin-top: 40px; }
