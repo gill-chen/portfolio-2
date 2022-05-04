@@ -443,6 +443,12 @@ mark,
   max-width: 100%;
   height: auto; }
 
+  .img-footer {
+    width: 130px; 
+    border-bottom-left-radius: 5px; 
+    border-top-left-radius: 5px;
+  }
+
 .figure {
   display: inline-block; }
 
@@ -528,6 +534,7 @@ pre {
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px; }
+
 
 .no-gutters {
   margin-right: 0;
@@ -3815,6 +3822,7 @@ input[type="button"].btn-block {
     .navbar-dark .navbar-text a:hover, .navbar-dark .navbar-text a:focus {
       color: #fff; }
 
+
 .card {
   position: relative;
   display: -webkit-box;
@@ -4222,6 +4230,14 @@ background-color: #f9eada;
   font-size: 34px;
 }
 
+.more-projects-card {
+  background: white; 
+  border: 1px solid black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+
 .more-projects-title {
   font-family: "Inter", sans-serif; 
   font-weight: 900; 
@@ -4236,12 +4252,14 @@ background-color: #f9eada;
 .more-projects-title-2 {
   font-family: "Inter", sans-serif; 
   font-weight: 900; 
-  padding-top: 40px; 
+  /* padding-top: 40px;  */
   /* border-top: 6px solid #333333; */
   padding-bottom: 30px;
   /* margin-top: 50px; */
-  margin-bottom: 50px;
-  font-size: 22px;
+  /* margin-bottom: 50px; */
+  font-size: 18px;
+  text-transform: uppercase;
+  text-align: left !important;
 }
 
 .dark-section .more-projects-title {
@@ -4718,41 +4736,48 @@ ol li::before {
 
 .intro-section {
   padding-top: 20px;
-  padding-bottom: 90px;
+  padding-bottom: 100px;
 }
 
 .nocolour-section {
   background-color: #FFFEF2;
-  padding-top: 90px;
-  padding-bottom: 90px;
+
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.footer-section {
+  background-color: #f9f8ec;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .default-section {
   background-color: #EDE1D5;
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .grey-section {
   background-color: lightgray;
   /* background-color: #F2F2F2;  */
   /* background-color: white; */
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .dark-section {
   /* background-color: rgb(46, 46, 46); */
   background-color: #252525;
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .neutral-section {
   /* background-color: rgb(241, 211, 199); */
   /* background-color: white; */
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .thumbnail-row {
@@ -4788,6 +4813,7 @@ padding-right: 0px !important; */
 }
 
 .project-thumbnail {
+
   background: rgba(255, 255, 255, 0.4);
   box-shadow: 0px 0px 6px 0px rgba(56, 39, 39, 0.15);
   border-radius: 5px;
@@ -4795,10 +4821,60 @@ padding-right: 0px !important; */
 -webkit-transition-property: box-shadow, transform;
 transition-property: box-shadow, transform;
 
-/* border: 3px solid #333; */
+/* border: 3px solid blue; */
 }
 
 .project-thumbnail:hover {
+  box-shadow: 0px 0px 6px 0px rgba(56, 39, 39, 0.3);
+-webkit-transform: scale(1.01);
+transform: scale(1.01);
+}
+
+.project-footer {
+  padding-bottom: 25px; 
+  
+}
+
+@media (min-width: 576px) {
+  .project-footer {
+    padding-bottom:20px; } }
+
+.project-footer-label {
+  display:inline; 
+  text-align: left;
+}
+
+.project-footer-label p {
+  font-size: 18px; 
+  color: #333333; 
+  font-family: 'Inter'; 
+  font-weight: 500; 
+  padding-left: 150px; 
+  padding-bottom: 0px; 
+  padding-right: 15px;
+  margin-bottom: 0px; 
+  position: relative;
+								
+  top: 50%;
+								
+  transform: translateY(-50%);
+}
+
+.project-thumbnail-footer {
+  background-color: white !important;
+  height: 100%; 
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: 0px 0px 6px 0px rgba(56, 39, 39, 0.15);
+  border-radius: 5px;
+  transition-duration: 0.3s;
+-webkit-transition-property: box-shadow, transform;
+transition-property: box-shadow, transform;
+padding: 0px !important; 
+cursor: pointer; 
+/* border: 3px solid #333; */
+}
+
+.project-thumbnail-footer:hover {
   box-shadow: 0px 0px 6px 0px rgba(56, 39, 39, 0.3);
 -webkit-transform: scale(1.01);
 transform: scale(1.01);

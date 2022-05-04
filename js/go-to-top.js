@@ -17,8 +17,8 @@ function topFunction() {
     // window.scrollTo(0, 0);
 
     window.scrollTo({
-        top: 100,
-        left: 100,
+        top: 0,
+        left: 0,
         behavior: 'smooth'
       });
     // For Safari
